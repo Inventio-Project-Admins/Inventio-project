@@ -1,0 +1,16 @@
+.social-box, .requests-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  .social-box ul, .requests-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-box ul li, .requests-box ul li {
+    padding: 10px 0;
+  }

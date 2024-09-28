@@ -1,0 +1,47 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex: 1;
+}
+
+/* Área principal */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Social section */
+.social {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.social-box {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.social-box h2 {
+  margin-top: 0;
+}
+
+.social-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-box ul li {
+  padding: 10px 0;
+}
